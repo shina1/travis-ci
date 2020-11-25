@@ -1,0 +1,17 @@
+{
+  "name": "travis-ci",
+  "version": "1.0.0",
+  "description": "for learning continous integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "shina",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1"
+  }
+}
